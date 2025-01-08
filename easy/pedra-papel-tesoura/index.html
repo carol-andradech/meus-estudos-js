@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pedra Papel Tesoura</title>
+  </head>
+  <body><title>Pedra Papel Tesoura</title>
+</head>
+<body>
+  <h1 id="title">Pedra - Papel - Tesoura</h1>
+  <div>
+    <button onclick="showresult('📄 Papel')">📄 Papel</button>
+    <button onclick="showresult('✂️ Tesoura')">✂️ Tesoura</button>
+    <button onclick="showresult('⛰️ Pedra')">⛰️ Pedra</button>
+  </div>
+
+  <div class="choices-container">
+    <div>
+      <h2>Player</h2>
+      <p id="user-choice"></p>
+    </div>
+    <div>
+      <h2>PC</h2>
+      <p id="pc-choice"></p>
+    </div>
+  </div>
+
+  <h1>Resultado:</h1>
+  <p id="result"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
